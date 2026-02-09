@@ -1,0 +1,19 @@
+# NTUMA Robots.txt
+# Allows search engines to crawl all pages
+
+User-agent: *
+Allow: /
+Disallow: 
+
+# Specific rules for search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl delay (wait between requests)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://ntuma.rw/sitemap.xml
